@@ -1,0 +1,11 @@
+{
+  "name": "bible-planner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "bun create-ics.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}
