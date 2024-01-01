@@ -285,10 +285,6 @@ while (current < nextYearDate) {
 
 generated += end;
 
-const file = Bun.file("NT-anual.ics");
-const writer = file.writer();
-writer.write(generated);
-
-writer.flush();
+Bun.write("NT-anual.ics", generated);
 
 console.log("Fisierul NT-anual.ics a fost creat cu succes!");
